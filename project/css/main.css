@@ -1,0 +1,43 @@
+body{
+    background-color: black;
+}
+a {
+    cursor: pointer;
+}
+.header-main {
+    width:100%;
+    height:60px;
+    background-color: white; 
+    display: flex;
+    justify-content: space-between;
+}
+.header-main-logo {
+    width: fit-content;
+    height: 100%;
+    background-color: green;
+}
+.header-main-logo img{
+    height: 100px;
+}
+.header-main-nav {
+    width: fit-content;
+    height: 100%;
+    background-color: orange;
+}
+.header-main-nav ul {
+    list-style: none;
+}
+.header-main-nav ul li {
+    display:inline;
+    float: left;
+    margin-right: 10px;
+}
+.header-main-nav ul a {
+    padding: 0 10px;
+
+}
+.header-main-sm {
+    width: 120px;
+    height: 100%;
+    background-color: red;
+}

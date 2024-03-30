@@ -1,42 +1,60 @@
 body{
-    background-color: black;
+    background-color: #000
+}
+h1 {
+    font-size: 26px;
+    line-height: 32px;
+    color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600px;
+    text-transform: uppercase;
+}
+p {
+    font-size: 18px;
+    line-height: 32px;
+    color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500px;
+    opacity: 40%;
 }
 a {
     cursor: pointer;
 }
 .header-main {
-    justify-content: flex-end;
-    align-items: center;
-    background-color: transparent; 
-    display: flex;
-    padding: 0px 0px;
+    height: 100%;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 0px 0x;
+    position:fixed;
+    z-index: 100;
 }
 .header-main-logo {
     width: fit-content;
     height: 100%;
-    display: flex;
-    justify-content: flex-start;
-    margin-right: auto;
+    float: left;
     margin-left: 50px;
+  
 }
 .header-main-logo img{
 height: 160px;
 }
 .header-main-nav {
-    margin-right: 100px;
+    margin-right: 400px
 }
 .header-main-nav ul {
+    align-items: center;
+    margin-top: 60px;
+    display: flex;
+    float:right;
     list-style: none;
 }
 .header-main-nav ul li {
-    display:inline;
-    justify-content: flex-end;
-    margin-right: 60px;
+    margin-right: 80px;
 }
 .header-main-nav ul a {
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 400px;
-    font-size: 20px;
+    font-size: 16px;
     color: #ffffff;
     text-decoration: none;
     transition: all 0.3s ease 0s;
@@ -44,7 +62,7 @@ height: 160px;
 button {
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 400px;
-    font-size: 20px;
+    font-size: 16px;
     color: #ffffff;
     padding:  9px 25px;
     background-color: #8a2be2;

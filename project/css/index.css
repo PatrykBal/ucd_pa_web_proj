@@ -1,5 +1,5 @@
 main {
-    height: 50vh;
+    height: 70vh;
     width: 100%;    
     position: relative;
     background-size: cover;
@@ -80,7 +80,7 @@ to {
 /* SECTION 1  */
 
 .index-section1 {
-    height: 70vh;
+    height: 80vh;
     width: 100%;
     background-color: #000000;
     display: flex;
@@ -161,7 +161,7 @@ margin-left: 250px;
 /* SECTION 2  */
 
 .index-section2 {
-    height: 70vh;
+    height: 80vh;
     width: 100%;
     background-color: #000000;
     display: flex;
@@ -210,7 +210,7 @@ margin-right: 250px;
 
 
 .index-section2-image {
-    height: 40vh;
+    height: 50vh;
     width: auto;
     max-width: 100%;
     display: flex;
@@ -242,7 +242,7 @@ margin-right: 250px;
 /* SECTION 3  */
 
 .index-section3 {
-    height: 50vh;
+    height: 70vh;
     width: 100%;    
     position: relative;
     background-size: cover;
@@ -253,7 +253,7 @@ margin-right: 250px;
 
 .index-section3-text {
     width: 100%;
-    height: 50vh;
+    height: 70vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -261,7 +261,7 @@ margin-right: 250px;
 }
 
 .index-section3-text h1 {
-    font-size: 80px;
+    font-size: 60px;
     color: #8a2be2;
     text-shadow: 2px 2px #ffffff;
 

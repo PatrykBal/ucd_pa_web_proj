@@ -1,6 +1,7 @@
 main {
     height: 50vh;
-    width: 100%;    position: relative;
+    width: 100%;    
+    position: relative;
     background-size: cover;
     background-position: center;
     background-image: url(/project/images/heroimg1.jpg);
@@ -8,13 +9,21 @@ main {
 }
 
 .main-intro-text {
-    position: absolute;
+    width: 100%;
     margin-top: 200px;
     margin-left: 130px;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
 }
 
+.yourpath {
+    position: relative;
+    left: -100%;
+    animation: slideIn 2s ease forwards;
+}
 
-main .main-intro h1 {
+.main-intro-text h1 {
     font-size:35px;
     line-height: -20px;
 }
@@ -47,6 +56,25 @@ main a:hover {
 .fitfocus {
     font-size: 55px;
     color: #8a2be2;
+    animation: textTransition 1s ease-in-out forwards;
+}
+
+@keyframes textTransition {
+    from {
+        font-size: 2.5em;
+}
+to {
+        font-size: 1.5em;
+    }
+}
+
+@keyframes slideIn {
+    from {
+        left: -100%;
+    }
+    to  {
+        left: 0%;
+    }
 }
 
 /* SECTION 1  */

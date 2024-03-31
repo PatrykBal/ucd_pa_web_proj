@@ -1,5 +1,5 @@
 main {
-    height: 60vh;
+    height: 40vh;
     width: 100%;
     background-color: #000;
     background-image: url(/project/images/heroimg1.jpg);
@@ -8,9 +8,7 @@ main {
     background-position: center;
     display: flex;
     justify-content: flex-start;
-    align-items: centre;
-    margin-bottom: 300p;
-    z-index: 1000;
+    margin-top: 10px;
 }
 
 main .main-intro h1 {
@@ -20,7 +18,6 @@ main .main-intro h1 {
 
 main p {
     font-size: 20px;
-    line min-height: 20px;
 }
 
 main a {
@@ -38,11 +35,12 @@ main a {
 main a:hover {
     background-color: #ffff;
     color: #000;
+    cursor: pointer;
 }
 
 .main-intro {
-    margin-top: 250px;
-    margin-left: 60px;
+    margin-top: 100px;
+    margin-left: 130px;
 }
 
 .fitfocus {

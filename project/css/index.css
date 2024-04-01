@@ -531,3 +531,97 @@ margin-left: 250px;
   .button-memb:hover {
     background-color: #5c159d;
   }
+
+  /* CONTACT - SECTION 1 */
+
+  .contact-section1-two-boxes {
+    height: 50vh;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    border-bottom: solid #8a2be2;
+  }
+  
+  .box {
+    height: 150px;
+    padding: 40px;
+    text-align: left;
+    border-radius: 20px;
+    width: 700px;
+    border: #8a2be2 solid;
+    margin: 0 40px
+  }
+  
+  .box h3 {
+    font-size: 26px;
+    color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600px;
+    text-transform: uppercase;
+  }
+  
+  .box p {
+    font-size: 18px;
+    line-height: 25px;
+    color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+    opacity: 40%;
+    margin-top: 50px;
+    text-transform: uppercase;
+  }
+
+  .box ul li a {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: 300;
+    color: #ffffff;
+    display: block;
+    transition: all 0.3s ease;
+    margin-left: -35px;
+    opacity: 40%;
+}
+
+.box ul li a:hover {
+    color: #8a2be2;
+    padding-left: 6px;
+}
+  
+ /* CONTACT - SECTION 2 */
+
+ .contact-section2-form {
+    height: 40vh;
+    font-family:Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom:#8a2be2 solid;
+  }
+  
+  .contact-form {
+    text-align: center;
+    padding: 30px;
+    border-radius: 8px;
+  }
+  
+  .contact-form h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .contact-form p {
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+  
+  .contact-form input,
+  .contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+
+  

@@ -283,10 +283,11 @@ border-bottom: #8a2be2 solid;
 }
 
 .index-section4 h2 {
-    background-color: #8a2be2;
+    text-shadow: 2px 1px 1px #ffffff;
+    border: 2px solid rgba(138, 43, 226, 0.4);
     width: 100%;
-    font-size: 40px;
-    color: #ffffff;
+    font-size: 30px;
+    color: #8a2be2;
     display: flex;
     justify-content: center;
     align-items: center;

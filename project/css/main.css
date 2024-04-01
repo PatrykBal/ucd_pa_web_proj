@@ -86,3 +86,44 @@ button:hover {
 .header-main-nav ul a:hover {
     color: #8a2be2;
 }
+
+/* FOOTER SECTION  */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.footer-main {
+    padding: 70px 0;
+}
+ 
+.footer-section1 {
+    color: #ffffff;
+    max-width: 1170px;
+    background: red;
+    margin: auto;
+}
+
+ul {
+    list-style: none;
+}
+
+.footer-row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.footer-col {
+    width: 25%;
+    padding: 0 15px;
+}
+
+.footer-col h3 {
+    font-size: 20px;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+}
+ 
+

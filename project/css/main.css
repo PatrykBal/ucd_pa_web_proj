@@ -29,7 +29,7 @@ a {
 }
 
 .header-main {
-    background-color: rgba(92, 21, 157, 0.4);
+    background-color: rgba(92, 21, 157, 0.7);
     border-bottom: #ffffff solid;
     width: 100%;
     padding: 0;
@@ -103,7 +103,9 @@ button:hover {
     background-color: #5c159d;
 }
 .header-main-nav ul a:hover {
-    color: #8a2be2;
+    color: #000000;
+    background-color: #ffffff;
+    border-radius: 10px;
 }
 
 /* FOOTER SECTION  */
